@@ -7,7 +7,7 @@ import StringIO
 from math import ceil
 
 from django.http import HttpResponse
-import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 
 current_path = os.path.normpath(os.path.dirname(__file__))
 
